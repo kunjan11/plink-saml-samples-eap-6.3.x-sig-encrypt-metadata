@@ -79,13 +79,13 @@ lTz3UNkn6k2iagzYdJdnhgRZGpRWjf1t4skoJjvfL3HwkOWhSFKundbKcZSZwifI
 			<EmailAddress>admin@mycompany.com</EmailAddress>
 		</ContactPerson>
 	</EntityDescriptor>
-	<EntityDescriptor entityID="http://localhost:8080/sales-metadata/">
+	<EntityDescriptor entityID="http://localhost:8080/admin/">
 		<SPSSODescriptor
 			protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol http://schemas.xmlsoap.org/ws/2003/07/secext">
 			<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient
 			</NameIDFormat>
 			<AssertionConsumerService
-				Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8080/sales-metadata/"
+				Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8080/admin/"
 				index="1" isDefault="true" />
             <KeyDescriptor>
                 <dsig:KeyInfo xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
@@ -128,7 +128,7 @@ lTz3UNkn6k2iagzYdJdnhgRZGpRWjf1t4skoJjvfL3HwkOWhSFKundbKcZSZwifI
 			<OrganizationDisplayName xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
 				xml:lang="en">JBoss by Red Hat</OrganizationDisplayName>
 			<OrganizationURL xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
-				xml:lang="en">http://localhost:8080/sales-metadata/</OrganizationURL>
+				xml:lang="en">http://localhost:8080/admin/</OrganizationURL>
 		</Organization>
 		<ContactPerson contactType="technical">
 			<GivenName>The</GivenName>
