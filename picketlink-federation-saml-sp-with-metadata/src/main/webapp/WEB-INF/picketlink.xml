@@ -13,6 +13,7 @@
 			<ValidatingAlias Key="localhost" Value="servercert" />
 			<ValidatingAlias Key="127.0.0.1" Value="servercert" />
 		</KeyProvider>
+		<!--The Below Excerpt should not be requires as of EAP 6.3.0 -->
         <!-- MetaDataProvider ClassName="org.picketlink.identity.federation.core.saml.md.providers.FileBasedEntitiesMetadataProvider">
             <Option Key="FileName" Value="/WEB-INF/classes/idp-metadata.xml"/>
         </MetaDataProvider -->
