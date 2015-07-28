@@ -5,7 +5,6 @@
     issued by the Identity Provider. -->
     <security-domain>sp</security-domain>
 
-
     <!-- Here we just define the context path of the deployment. -->
     <context-root>web</context-root>
 
