@@ -75,11 +75,11 @@ lTz3UNkn6k2iagzYdJdnhgRZGpRWjf1t4skoJjvfL3HwkOWhSFKundbKcZSZwifI
 		</Organization>
 		<ContactPerson contactType="technical">
 			<GivenName>The</GivenName>
-			<SurName>Admin</SurName>
-			<EmailAddress>admin@mycompany.com</EmailAddress>
+			<SurName>Web</SurName>
+			<EmailAddress>web@mycompany.com</EmailAddress>
 		</ContactPerson>
 	</EntityDescriptor>
-	<EntityDescriptor entityID="http://localhost:8080/admin/">
+	<EntityDescriptor entityID="http://localhost:8080/web/">
 		<SPSSODescriptor
 			protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol http://schemas.xmlsoap.org/ws/2003/07/secext">
 			<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient
@@ -128,12 +128,12 @@ lTz3UNkn6k2iagzYdJdnhgRZGpRWjf1t4skoJjvfL3HwkOWhSFKundbKcZSZwifI
 			<OrganizationDisplayName xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
 				xml:lang="en">JBoss by Red Hat</OrganizationDisplayName>
 			<OrganizationURL xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
-				xml:lang="en">http://localhost:8080/admin/</OrganizationURL>
+				xml:lang="en">http://localhost:8080/web/</OrganizationURL>
 		</Organization>
 		<ContactPerson contactType="technical">
 			<GivenName>The</GivenName>
-			<SurName>Admin</SurName>
-			<EmailAddress>admin@mycompany.com</EmailAddress>
+			<SurName>Web</SurName>
+			<EmailAddress>web@mycompany.com</EmailAddress>
 		</ContactPerson>
 	</EntityDescriptor>
 </EntitiesDescriptor>
